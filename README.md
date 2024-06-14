@@ -1,1 +1,1 @@
-# gh-actions-course
+Github Actions Course from Udemy with Exercises and Examples
