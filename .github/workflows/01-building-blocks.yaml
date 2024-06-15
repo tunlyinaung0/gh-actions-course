@@ -1,7 +1,8 @@
-name: 01-building-block
+name: 01-building-blocks
 on: 
-  push
-  workflow_dispatch
+  workflow_dispatch:
+  push:
+
 
 jobs:
   echo-hello:
