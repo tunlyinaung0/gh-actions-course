@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Display Information
         run: |
-          echo "Event name: {{ github.event_name }}"
+          echo "Event name: ${{ github.event_name }}"
           echo "Ref: ${{ github.ref }}"
           echo "SHA: ${{ github.sha }}"
           echo "Actor: ${{ github.actor }}"
@@ -19,4 +19,4 @@ jobs:
  
       - name: Retrieve Variable
         run: |
-          echo "Variable: ${{ env.MY_VAR }}"
+          echo "${{ env.MY_VAR }}"
