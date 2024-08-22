@@ -1,1 +1,1 @@
-Github Actions Course from Udemy with Exercises and Examples
+Github Actions Lab
