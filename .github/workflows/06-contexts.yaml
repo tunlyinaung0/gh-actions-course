@@ -31,7 +31,7 @@ jobs:
  
       - name: Retrieve Variable
         run: |
-          echo "${{ vars.MY_VAR }}"
+          echo '${{ vars.MY_VAR || "Default_Value" }}''
 
       - name: Print Env Variables
         env:
